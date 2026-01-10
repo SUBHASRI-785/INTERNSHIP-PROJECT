@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: bisque;
+    margin: 20px;
+}
+
+.gallery-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.preview {
+    margin-bottom: 20px;
+}
+.preview img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border: 8px solid black;
+    border-radius: 16px;
+    box-shadow: black;
+}
+
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 8px solid rgba(28, 21,21,0.25);      
+    box-shadow: 0 6px 12px rgba(28, 21, 21, 0.25);
+}
+
+.thumbnails img:hover {
+    border-color: #777;
+    border-radius: 4px;
+}
